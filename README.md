@@ -1,1 +1,44 @@
 # MIjson2xml
+
+http://localhost:8290/leads/convertToLead
+POST
+{
+   "owner":[
+      {
+         "ID":"005D0000000nVYVIA3",
+         "name":"Paul",
+         "city":"CA",
+         "code":"94041",
+         "country":"US"
+      },
+      {
+         "ID":"005D0000000nVYVIA2",
+         "name":"Smith",
+         "city":"CA",
+         "code":"94041",
+         "country":"US"
+      }
+   ],
+   "lead":[
+      {
+         "ID":"00QD000000FP14JMAU",
+         "name":"Carl",
+         "city":"NC",
+         "code":"97788",
+         "country":"US"
+      },
+      {
+         "ID":"00QD000000FP14JMAT",
+         "name":"Carl",
+         "city":"NC",
+         "code":"97788",
+         "country":"US"
+      }
+   ],
+   "sendNotificationEmail":"true",
+   "convertedStatus":"Qualified",
+   "doNotCreateOpportunity":"true",
+   "opportunityName":"Partner Opportunity",
+   "overwriteLeadSource":"true",
+   "sessionId":"QwWsHJyTPW.1pd0_jXlNKOSU"
+}
